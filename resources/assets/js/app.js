@@ -1,7 +1,9 @@
 import Vue 			from 'vue'
 import VueRouter 	from 'vue-router'
+import iView 		from 'iview';
 
 Vue.use(VueRouter);
+Vue.use(iView);
 
 import App 			from './views/App'
 import Modal		from './components/Modal'

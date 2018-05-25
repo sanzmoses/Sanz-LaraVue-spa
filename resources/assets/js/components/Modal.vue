@@ -20,7 +20,7 @@
     </div>
     <div class="ui positive right labeled icon button">
       Yep, that's me
-      <i class="check circle icon"></i>
+      <i class="fa fa-times"></i>
     </div>
   </div>
 </div>
