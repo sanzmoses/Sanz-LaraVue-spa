@@ -1,21 +1,11 @@
 <template>
 	<div class="ui secondary pointing menu">
-	  <a class="item active">
-	    Home
-	  </a>
-	  <a class="item">
-	    Messages
-	  </a>
-	  <a class="item">
-	    Friends
-	  </a>
-	  <div class="right menu">
-	    <a class="ui item">
-	      Logout
-	    </a>
-	  </div>
-	</div>
-	<div class="ui segment">
-	  <p></p>
+	    <router-link to="/" class="item" active-class="active" exact>Home</router-link> 
+	    <router-link to="/user" class="item" active-class="active">User</router-link> 
+	    <div class="right menu">
+	        <a class="ui item">
+	          Logout
+	        </a>
+	    </div>
 	</div>
 </template>
