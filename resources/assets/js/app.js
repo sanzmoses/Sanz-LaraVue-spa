@@ -16,3 +16,4 @@ const app = new Vue({
     components: { App, Modal },
     router,
 });
+
